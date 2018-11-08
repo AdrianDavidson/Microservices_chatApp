@@ -1,0 +1,26 @@
+{
+  "name": "microservices_chatapp",
+  "version": "1.0.0",
+  "description": "a chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianDavidson/Microservices_chatApp.git"
+  },
+  "author": "Adrian Davidson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianDavidson/Microservices_chatApp/issues"
+  },
+  "homepage": "https://github.com/AdrianDavidson/Microservices_chatApp#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "grpc": "^1.16.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
